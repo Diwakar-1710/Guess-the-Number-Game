@@ -71,7 +71,6 @@ function getRandomNumber(){
  * Save guess history 
  */
 function saveGuessHistory(numberGuess) {
-  // *CODE GOES BELOW HERE *
   guesses.push(numberGuess);
 }
 
@@ -115,7 +114,8 @@ function getDialog(dialogType, text){
 function showYouWon(){
   const text = "Awesome job, you got it!"
   /**
-   * Retrieve the dialog using the getDialog() function */
+    Retrieve the dialog using the getDialog() function 
+    */
   
   dialog=getDialog("won",text);
   document.getElementById("result").innerHTML = dialog;
